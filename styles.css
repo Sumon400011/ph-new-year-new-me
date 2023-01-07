@@ -1,0 +1,73 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	margin: 0;
+	padding: 0;}
+
+section{
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 26px;
+}
+
+h1{
+	font-size: 65px;
+	line-height: auto;
+	font-weight: bold;
+}
+h2{
+	font-size: 40px;
+	line-height: auto;
+	font-weight: bold;
+}
+
+.container{
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn{
+	padding: 20px 26px;
+	color: #005FAC;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.white-text{
+	color: #FFFFFF;
+}
+.black-text{
+	color: #151414;
+}
+.black-text2{
+	color: #444343;
+}
+.blue-text{
+	color: #005FAC;
+}
+
+.mb-32{
+	margin-bottom: 32px;
+}
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.box-padding{
+	padding: 64px 60px;
+}
+
+.bg-content{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
