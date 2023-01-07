@@ -5,7 +5,8 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	margin: 0;
-	padding: 0;}
+	padding: 0;
+}
 
 section{
 	padding-top: 130px;
@@ -19,12 +20,14 @@ p{
 
 h1{
 	font-size: 65px;
-	line-height: auto;
 	font-weight: bold;
 }
 h2{
 	font-size: 40px;
-	line-height: auto;
+	font-weight: bold;
+}
+h3{
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -39,6 +42,9 @@ h2{
 	font-weight: bold;
 	border-radius: 5px;
 	background-color: white;
+	outline: none;
+	border: none;
+	cursor: pointer;
 }
 
 .white-text{
@@ -50,8 +56,22 @@ h2{
 .black-text2{
 	color: #444343;
 }
+.black-text3{
+	color: #737272;
+}
 .blue-text{
 	color: #005FAC;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+
+.p-20{
+	padding: 20px;
 }
 
 .mb-32{
@@ -60,10 +80,43 @@ h2{
 .mb-24{
 	margin-bottom: 24px;
 }
+.mb-50{
+	margin-bottom: 50px;
+}
+.my-130{
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+.ml-auto{
+	margin-left: auto;
+}
 
 .box-padding{
 	padding: 64px 60px;
 }
+.d-flex{
+	display: flex;
+}
+.flex-end{
+	justify-content: end;
+}
+.flex-start{
+	justify-content: start;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
 
 .bg-content{
 	background-repeat: no-repeat;
@@ -71,3 +124,92 @@ h2{
 	background-position: center center;
 }
 
+header{
+	background-image: url("images/banner/banner3.png");
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+
+.header-cta{
+	max-width: 525px;
+	width: 100%;
+}
+
+
+.failure-year ul li{
+	margin-bottom: 10px;
+}
+
+
+.my-plan .block{
+	text-align: center;
+}
+.my-plan h3{
+	font-size: 24px;
+	color: #444343;
+	margin-bottom: 10px;
+}
+.my-plan p{
+	color: #737272;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+
+.mindset{
+	background-image: url("images/watch.png");
+	height: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.mindset .overlay{
+	height: 100%;
+	background-image: url("images/gradient1.png");
+}
+
+.mindset .overlay h2{
+	max-width: 460px;
+}
+
+.footer{
+	background-color: #151414;
+}
+
+.footer .address {
+	max-width: 485px;
+}
+
+.footer h3,
+.footer P
+{
+	color: white;
+}
+.footer .social img{
+	margin-right: 10px;
+}
+
+.footer .subcribe{
+	max-width: 325px;
+	width: 100%;
+
+}
+.footer .subcribe h3{
+	font-size: 25px;
+}
+
+.footer .subcribe .subs-input{
+	padding: 21px;
+	font-size: 16px;
+	color: #F3F3F3;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	background-color: transparent;
+	margin-bottom: 32px;
+}
+
+.footer .subcribe .subs-btn{
+	background-color: #005FAC;
+	color: white;
+}
